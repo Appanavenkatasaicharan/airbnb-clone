@@ -1,0 +1,43 @@
+.Card{
+    position: relative;
+    padding: 7px;
+    display: flex;
+    width: 176px;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.Card--stats{
+    display: flex;
+    /* width: 18px; */
+    flex-direction: row;
+}
+ 
+.Card--star{
+    align-self: center;
+    width: 14px;
+    height: 14px;
+}
+
+.Card--photo{
+    border-radius: 10px;
+    height: 235px;
+}
+.card--badge{
+    height: 20px;
+    width: 61px;
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 7px;
+    font-size:smaller;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+.grey{
+    color: #918E9B;
+}
+
+.bold{
+    font-weight: bold;
+}
